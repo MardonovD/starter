@@ -1,14 +1,12 @@
-import React from 'react';
-
+import React from "react";
+import ProductComponents from "./ProductComponents";
 
 const ProductList = () => {
   return (
-    <div>
-      
+    <div className="ui container">
+      <ProductComponents />
     </div>
   );
 };
-
-ProductList.propTypes = {};
 
 export default ProductList;
